@@ -8,8 +8,6 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
-      console.log("[json file loaded successfully]");
-
       let jsonObj = JSON.parse(this.responseText);
       render(jsonObj);
     }
@@ -21,26 +19,27 @@ function loadDoc() {
 
 // Render data on html
 function render(jsonObj) {
-  console.log("[rendering]");
+  let dataView = document.getElementById("js_json-content"),
+      dataFragment = document.createDocumentFragment(),
+      data = jsonObj;
 
-  let location = document.createElement("h2");
-  let nameTxt = document.createTextNode("test");
-  let dataDisplay = document.getElementById("js_json-content");
-  let data = jsonObj;
+  // Loop through array of objects
+  jsonObj.forEach(function (item) {
+    let place = item.Restaurant,
+        date = item.Date,
+        location = document.createElement("h2"),
+        when = document.createElement("p"),
+        nameTxt = document.createTextNode(place);
+        dateTxt = document.createTextNode(date);
 
-  location.appendChild(nameTxt);
-  dataDisplay.appendChild(location);
-
-  jsonObj.forEach(function (element, index ) {
-    nameTxt = element.Restaurant;
-    console.log(nameTxt);
-
-    //location.appendChild(nameTxt);
-    //dataDisplay.appendChild(location);
-    //dataDisplay.innerHTML = "<h2>" + element.Restaurant + "</h2>";
-    //console.log(index + ": " + element.Restaurant);
+    location.appendChild(nameTxt);
+    when.appendChild(dateTxt);
+    
+    dataFragment.appendChild(location);
+    dataFragment.appendChild(when);
   });
 
+  dataView.appendChild(dataFragment);
 }
 
 loadDoc();
