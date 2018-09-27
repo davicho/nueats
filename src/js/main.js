@@ -2,19 +2,7 @@
  *  NuEats read from json and display in index.html
  */
 
-
-//  Load external json
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState === 4 && this.status === 200) {
-      let jsonObj = JSON.parse(this.responseText);
-      render(jsonObj);
-    }
-  };
-  xhttp.open("GET", "data.json", true);
-  xhttp.send();
-}
+let jsonObj = require("./data.json");
 
 
 // Render data on html
@@ -32,14 +20,17 @@ function render(jsonObj) {
         nameTxt = document.createTextNode(place);
         dateTxt = document.createTextNode(date);
 
+    // Attach content to HTML elements
     location.appendChild(nameTxt);
     when.appendChild(dateTxt);
     
+    // Attach dataFragment container to DOM
     dataFragment.appendChild(location);
     dataFragment.appendChild(when);
   });
 
+  // Attach render output to HTML
   dataView.appendChild(dataFragment);
 }
 
-loadDoc();
+render(jsonObj);

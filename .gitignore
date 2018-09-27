@@ -1,0 +1,8 @@
+# site ignore
+.DS_Store
+node_modules/
+.sass-cache/
+
+# compiled js and css files
+/assets/css/*
+/assets/js/*
