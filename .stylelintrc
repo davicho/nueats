@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": [
+    "src/scss/vendor/**/*.scss",
+    "web/wp/wp-admin/css/**/*.scss",
+    "web/app/plugins/**/*.scss",
+    "src/styleguide/**/*.scss"
+  ]
+}

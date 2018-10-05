@@ -1,0 +1,40 @@
+body {
+  transition: transform 1s;
+  text-align: center;
+  > #container {
+    text-align:left;
+    margin:0 auto;
+    width:500px;
+  }
+}
+
+
+header {
+  h1 {
+    font-size:26px; margin-bottom:26px;
+  }
+}
+
+div {
+  border:3px solid $color2;
+  padding:$border-radius;
+  margin-bottom:25px; 
+  
+  ul {
+    padding-top:14px;
+  }
+  li {
+    color:$fontcolor1;
+    margin-bottom:12px;
+  }
+}
+
+button {
+  border: 1px solid #fc0;
+}
+
+#sample {
+  &__text {
+    border: 1px solid orange;
+  }
+}

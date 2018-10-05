@@ -1,7 +1,7 @@
 /**
  *  NuEats read from json and display in index.html
  */
-
+console.log("in main.js!!!?");
 let jsonObj = require("./data.json");
 
 
@@ -34,3 +34,4 @@ function render(jsonObj) {
 }
 
 render(jsonObj);
+
