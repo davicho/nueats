@@ -1,0 +1,56 @@
+.sample__description {
+  border: 10px solid hotpink;
+  border-radius: 10px;
+  display: grid;
+}
+
+body {
+  margin: 0;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+}
+
+h1 {
+  color: #1f2d3d;
+  font-size: 56px;
+  background-color: #fffffb;
+  margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results dl {
+  margin: 0;
+  padding: 50px;
+}
+
+.results dl dt {
+  opacity: 0.3;
+  font-size: 42px;
+}
+
+.results dl dd {
+  opacity: 0.3;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.results dl:nth-child(even) {
+  background: #b8b8d1;
+  color: #1f2d3d;
+}
+
+.results dl:nth-child(odd) {
+  background: #5b5f97;
+  color: #fff;
+}
+
+button {
+  border: 1px solid #fc0;
+}
+
