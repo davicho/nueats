@@ -1,31 +1,31 @@
 body {
+  padding-left: 100px;
   transition: transform 1s;
   text-align: center;
-  > #container {
-    text-align:left;
-    margin:0 auto;
-    width:500px;
-  }
+  padding-right: 100px;
+  border: 10px solid $color;
+  border-radius: 10px;
+  @include gridz;
 }
-
 
 header {
   h1 {
-    font-size:26px; margin-bottom:26px;
+    font-size: 26px;
+    margin-bottom: 26px;
   }
 }
 
 div {
-  border:3px solid $color2;
-  padding:$border-radius;
-  margin-bottom:25px; 
-  
+  border: 3px solid $color2;
+  padding: $border-radius;
+  margin-bottom: 25px;
+
   ul {
-    padding-top:14px;
+    padding-top: 14px;
   }
   li {
-    color:$fontcolor1;
-    margin-bottom:12px;
+    color: $fontcolor1;
+    margin-bottom: 12px;
   }
 }
 
@@ -35,6 +35,9 @@ button {
 
 #sample {
   &__text {
-    border: 1px solid orange;
+    border: 5px dotted lime;
+    background-image: url("../img/slack.png");
+    background-repeat: no-repeat;
+    background-position: left;
   }
 }

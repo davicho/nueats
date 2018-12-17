@@ -4,8 +4,8 @@
   "description": "# NuEats Project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --mode development",
-    "build": "NODE_ENV=production webpack --mode production"
+    "dev": "nodemon --watch webpack.common.js --exec \"webpack-dev-server --config webpack.dev.js\"",
+    "build": "NODE_ENV=production webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -20,19 +20,26 @@
   "homepage": "https://github.com/davicho/nueats#readme",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
+    "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
     "import-glob-loader": "^1.1.0",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4",
+    "postcss-csscomb": "^1.0.2",
+    "postcss-csso": "^3.0.0",
     "postcss-loader": "^3.0.0",
     "postcss-reporter": "^6.0.0",
+    "resolve-url-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "stylelint": "^9.6.0",
     "stylelint-config-standard": "^18.2.0",
+    "url-loader": "^1.1.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.9"
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
   },
   "dependencies": {}
 }

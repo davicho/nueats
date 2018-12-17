@@ -1,29 +1,18 @@
-// webpack v4
- 
-const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const merge = require('webpack-merge');
+const common = require('./webpack.common.js');
 const webpack = require('webpack');
-const devMode = process.env.NODE_ENV !== 'production';
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-module.exports = {
-  entry: './src/index.js',
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'app/assets/js')
-    publicPath: '/app/assets/'
-  },
-  devtool: "inline-source-map",
+module.exports = merge(common, {
+  mode: 'production',
+  //devtool: 'source-map',
   module: {
     rules: [
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
           {
-            // fallback to style-loader in development
-            //devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
-            //loader: MiniCssExtractPlugin.loader
-            loader: 'style-loader',
+            loader: MiniCssExtractPlugin.loader
             // options: {
             //   publicPath: 'http://localhost:3000/app/assets/css/'
             // }
@@ -58,21 +47,9 @@ module.exports = {
           }
         ]
       }
-      // {
-      //   test: /\.(png|jpg|gif)$/i,
-      //   use: [
-      //     {
-      //       loader: 'url-loader',
-      //       options: {
-      //         limit: 8192
-      //       }
-      //     }
-      //   ]
-      // }
     ]
   },
   plugins: [
-    new CleanWebpackPlugin('app/assets/js/*.js'),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
@@ -81,12 +58,7 @@ module.exports = {
       
       filename: '../css/style.css',
       chunkFilename: '../css/style.css'
-    }),
-    new webpack.HotModuleReplacementPlugin()
-  ],
-  devServer: {
-    contentBase: './app',
-    hot: false,
-    overlay: true
-  }
-};
+    })
+    //new webpack.HotModuleReplacementPlugin()
+  ]
+});

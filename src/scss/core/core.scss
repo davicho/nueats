@@ -2,8 +2,8 @@
   display: grid;
 }
 
-body {
-  border: 10px solid $color;
+.sample__description {
+  border: 10px solid hotpink;
   border-radius: 10px;
   @include gridz;
 }
