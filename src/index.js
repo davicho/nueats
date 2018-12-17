@@ -9,5 +9,3 @@ import './js/main.js';
 //import jsonObj from './js/data.json';
 
 import "./scss/style.scss";
-
-console.log("in index.js (main)");

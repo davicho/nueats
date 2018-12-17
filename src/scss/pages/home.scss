@@ -1,31 +1,44 @@
 body {
-  padding-left: 100px;
+  margin: 0;
   transition: transform 1s;
-  text-align: center;
-  padding-right: 100px;
-  border: 10px solid $color;
-  border-radius: 10px;
+  font-family: arial;
   @include gridz;
 }
 
-header {
-  h1 {
-    font-size: 26px;
-    margin-bottom: 26px;
-  }
+h1 {
+  color:#1f2d3d;
+  font-size: 56px;
+  background-color: #fffffb;
+  margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-div {
-  border: 3px solid $color2;
-  padding: $border-radius;
-  margin-bottom: 25px;
+.results {
+  dl {
+    margin: 0;
+    padding: 50px;
+    dt {
+      opacity: .3;
+      font-size: 42px;
+    }
+    dd {
+      opacity: .3;
+      font-size: 18px;
+      margin-left: 0;
+    }
 
-  ul {
-    padding-top: 14px;
-  }
-  li {
-    color: $fontcolor1;
-    margin-bottom: 12px;
+    &:nth-child(even) {
+      background: $row-even;
+      color:#1f2d3d;
+    }
+
+    &:nth-child(odd) {
+      background: $row-odd;
+      color:#fff;
+    }
   }
 }
 
@@ -35,9 +48,9 @@ button {
 
 #sample {
   &__text {
-    border: 5px dotted lime;
-    background-image: url("../img/slack.png");
-    background-repeat: no-repeat;
-    background-position: left;
+    //border: 5px dotted lime;
+    //background-image: url("../img/slack.png");
+    //background-repeat: no-repeat;
+    //background-position: left;
   }
 }
