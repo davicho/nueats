@@ -2,21 +2,33 @@
  *  NuEats read from json and display in index.html
  */
 
-let jsonObj = require("./data.json"),
+let jsonObj = require("./dataBubbleTea.json"),
     data = jsonObj,
     results = document.getElementById("results");
 
-// Render data on html
-const markup = `
-  <div class="places">
-    ${data.map(place => 
-      `<dl>
-        <dt>${place.Restaurant}</dt>
-        <dd><b>${place['Cuisine Type']}</b></dd>
-        <dd>${place.Date}</dd>
-      </dl>`
-    ).join('')}
-  </div>
-`;
+class Establishment {
+  constructor () {
+    this.data = data;
+    this.results = results;
+  }
 
-results.innerHTML = markup;
+  render () {
+    // Render data on html
+    let markup = `
+      <div class="places">
+        ${data.map(place => 
+          `<dl>
+            <dt>Location: ${place.Restaurant}</dt>
+            <dd><b>Type: ${place['Cuisine Type']}</b></dd>
+            <dd>${place.Date}</dd>
+          </dl>`
+        ).join('')}
+      </div>
+    `;
+
+    return results.innerHTML = markup;
+  }
+}
+
+let restaurant = new Establishment;
+console.log(restaurant.render());
