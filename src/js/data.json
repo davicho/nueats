@@ -1,206 +1,260 @@
 [
  {
-   "Date": "7/27/2017",
+   "Date": "2017-07-27",
    "Restaurant": "Paratha Alley",
-   "Cuisine Type": "Indian ",
-   "Go Again?": "No"
+   "Cuisine": "Indian ",
+   "Revisit": "No"
  },
  {
-   "Date": "8/30/2017",
+   "Date": "2017-08-30",
    "Restaurant": "Gaia",
-   "Cuisine Type": "Italian",
-   "Go Again?": "Yes"
+   "Cuisine": "Italian",
+   "Revisit": "Yes"
  },
  {
-   "Date": "9/6/2017",
+   "Date": "2017-09-06",
    "Restaurant": "Souvlaki GR",
-   "Cuisine Type": "Greek",
-   "Go Again?": "Yes"
+   "Cuisine": "Greek",
+   "Revisit": "Yes"
  },
  {
-   "Date": "9/13/2017",
+   "Date": "2017-09-13",
    "Restaurant": "Kati Roll",
-   "Cuisine Type": "Indian",
-   "Go Again?": "Yes"
+   "Cuisine": "Indian",
+   "Revisit": "Yes"
  },
  {
-   "Date": "9/27/2017",
+   "Date": "2017-09-27",
    "Restaurant": "The MasalaWala",
-   "Cuisine Type": "Indian",
-   "Go Again?": "Yes"
+   "Cuisine": "Indian",
+   "Revisit": "Yes"
  },
  {
-   "Date": "10/3/2017",
+   "Date": "2017-10-03",
    "Restaurant": "Patacon Pisao",
-   "Cuisine Type": "Venezuelan",
-   "Go Again?": "Yes"
+   "Cuisine": "Venezuelan",
+   "Revisit": "Yes"
  },
  {
-   "Date": "10/18/2017",
+   "Date": "2017-10-18",
    "Restaurant": "Cafe Himalaya",
-   "Cuisine Type": "Himalayan",
-   "Go Again?": "Yes"
+   "Cuisine": "Himalayan",
+   "Revisit": "Yes"
  },
  {
-   "Date": "10/25/2017",
+   "Date": "2017-10-25",
    "Restaurant": "Nom Wah",
-   "Cuisine Type": "Chinese",
-   "Go Again?": "Yes"
+   "Cuisine": "Chinese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "11/01/2017",
+   "Date": "2017-11-01",
    "Restaurant": "Fry Guys",
-   "Cuisine Type": "American",
-   "Go Again?": "No"
+   "Cuisine": "American",
+   "Revisit": "No"
  },
  {
-   "Date": "11/08/2017",
+   "Date": "2017-11-08",
    "Restaurant": "Ramen Ishida",
-   "Cuisine Type": "Japanese",
-   "Go Again?": "Yes"
+   "Cuisine": "Japanese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "11/15/2017",
+   "Date": "2017-11-15",
    "Restaurant": "Bar Primi",
-   "Cuisine Type": "Italian",
-   "Go Again?": "Maybe"
+   "Cuisine": "Italian",
+   "Revisit": "Maybe"
  },
  {
-   "Date": "11/30/2017",
+   "Date": "2017-11-30",
    "Restaurant": "Pokéspot",
-   "Cuisine Type": "Hawaiian",
-   "Go Again?": "Maybe"
+   "Cuisine": "Hawaiian",
+   "Revisit": "Maybe"
  },
  {
-   "Date": "12/06/2017",
+   "Date": "2017-12-06",
    "Restaurant": "Trapizzino",
-   "Cuisine Type": "Italian",
-   "Go Again?": "Yes"
+   "Cuisine": "Italian",
+   "Revisit": "Yes"
  },
  {
-   "Date": "12/27/2017",
+   "Date": "2017-12-27",
    "Restaurant": "Pho Vietnam",
-   "Cuisine Type": "Vietnamese",
-   "Go Again?": "Maybe"
+   "Cuisine": "Vietnamese",
+   "Revisit": "Maybe"
  },
  {
-   "Date": "01/17/2018",
+   "Date": "2018-01-17",
    "Restaurant": "Cocoron",
-   "Cuisine Type": "Japanese",
-   "Go Again?": "Yes"
+   "Cuisine": "Japanese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "01/24/2018",
+   "Date": "2018-01-24",
    "Restaurant": "Veselka",
-   "Cuisine Type": "Polish",
-   "Go Again?": "Yes"
+   "Cuisine": "Polish",
+   "Revisit": "Yes"
  },
  {
-   "Date": "01/31/2018",
+   "Date": "2018-01-31",
    "Restaurant": "Molcajete",
-   "Cuisine Type": "Mexican",
-   "Go Again?": "Yes"
+   "Cuisine": "Mexican",
+   "Revisit": "Yes"
  },
  {
-   "Date": "02/07/2018",
+   "Date": "2018-02-07",
    "Restaurant": "Cocoron",
-   "Cuisine Type": "Japanese",
-   "Go Again?": "Yes"
+   "Cuisine": "Japanese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "02/15/2018",
+   "Date": "2018-02-15",
    "Restaurant": "The Bao",
-   "Cuisine Type": "Chinese",
-   "Go Again?": "Yes"
+   "Cuisine": "Chinese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "02/21/2018",
+   "Date": "2018-02-21",
    "Restaurant": "Rosie's",
-   "Cuisine Type": "Mexican",
-   "Go Again?": "Yes"
+   "Cuisine": "Mexican",
+   "Revisit": "Yes"
  },
  {
-   "Date": "02/28/2018",
+   "Date": "2018-02-28",
    "Restaurant": "Ginger & Lemongrass",
-   "Cuisine Type": "Vietnamese",
-   "Go Again?": "Yes"
+   "Cuisine": "Vietnamese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "3/7/2018",
+   "Date": "2018-03-07",
    "Restaurant": "Wild Ginger",
-   "Cuisine Type": "Pan-Asian",
-   "Go Again?": "Maybe"
+   "Cuisine": "Pan-Asian",
+   "Revisit": "Maybe"
  },
  {
-   "Date": "3/14/2018",
+   "Date": "2018-03-14",
    "Restaurant": "Banh Mi Saigon",
-   "Cuisine Type": "Vietnamese",
-   "Go Again?": "Yes"
+   "Cuisine": "Vietnamese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "3/21/2018",
+   "Date": "2018-03-21",
    "Restaurant": "Zest Ramen",
-   "Cuisine Type": "Japanese",
-   "Go Again?": "Yes"
+   "Cuisine": "Japanese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "3/28/2018",
+   "Date": "2018-03-28",
    "Restaurant": "Slainte",
-   "Cuisine Type": "Irish",
-   "Go Again?": "Yes"
+   "Cuisine": "Irish",
+   "Revisit": "Yes"
  },
  {
-   "Date": "04/04/2018",
+   "Date": "2018-04-04",
    "Restaurant": "Shopsins",
-   "Cuisine Type": "Diner",
-   "Go Again?": "Yes"
+   "Cuisine": "Diner",
+   "Revisit": "Yes"
  },
  {
-   "Date": "05/02/2018",
+   "Date": "2018-05-02",
    "Restaurant": "BoCaphe",
-   "Cuisine Type": "Vietnamese",
-   "Go Again?": "No"
+   "Cuisine": "Vietnamese",
+   "Revisit": "No"
  },
  {
-   "Date": "05/09/2018",
+   "Date": "2018-05-09",
    "Restaurant": "Veselka",
-   "Cuisine Type": "Polish",
-   "Go Again?": "Yes"
+   "Cuisine": "Polish",
+   "Revisit": "Yes"
  },
  {
-   "Date": "06/13/2018",
+   "Date": "2018-06-13",
    "Restaurant": "The Bao",
-   "Cuisine Type": "Chinese",
-   "Go Again?": "Yes"
+   "Cuisine": "Chinese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "06/20/2018",
+   "Date": "2018-06-20",
    "Restaurant": "Boka",
-   "Cuisine Type": "Korean",
-   "Go Again?": "Yes"
+   "Cuisine": "Korean",
+   "Revisit": "Yes"
  },
  {
-   "Date": "07/25/2018",
+   "Date": "2018-07-25",
    "Restaurant": "Szechuan Mountain House",
-   "Cuisine Type": "Chinese",
-   "Go Again?": "Yes"
+   "Cuisine": "Chinese",
+   "Revisit": "Yes"
  },
  {
-   "Date": "08/08/2018",
+   "Date": "2018-08-08",
    "Restaurant": "Neopolitan Express",
-   "Cuisine Type": "Italian",
-   "Go Again?": "Maybe"
+   "Cuisine": "Italian",
+   "Revisit": "Maybe"
  },
  {
-   "Date": "08/29/2018",
+   "Date": "2018-08-15",
+   "Restaurant": "Madame Vo",
+   "Cuisine": "Pho",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-08-22",
+   "Restaurant": "Nam Son",
+   "Cuisine": "Pho",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-08-29",
    "Restaurant": "Broken Coconut",
-   "Cuisine Type": "Asian/American",
-   "Go Again?": "Maybe"
+   "Cuisine": "Asian/American",
+   "Revisit": "Maybe"
  },
  {
-   "Date": "09/05/2018",
+   "Date": "2018-09-05",
    "Restaurant": "K'OOK",
-   "Cuisine Type": "Korean",
-   "Go Again?": "Yes"
+   "Cuisine": "Korean",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-09-12",
+   "Restaurant": "San Marzano",
+   "Cuisine": "Italian",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-09-19",
+   "Restaurant": "Chef's Club Counter",
+   "Cuisine": "American",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-10-31",
+   "Restaurant": "Ramenhood",
+   "Cuisine": "Japanese/American",
+   "Revisit": "NO"
+ },
+ {
+   "Date": "2018-11-15",
+   "Restaurant": "El Castillo de Jagua",
+   "Cuisine": "Dominican",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-11-28",
+   "Restaurant": "Cocoron",
+   "Cuisine": "Japanese",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2018-11-15",
+   "Restaurant": "Rubirosa",
+   "Cuisine": "Italian",
+   "Revisit": "Yes"
+ },
+ {
+   "Date": "2019-03-07",
+   "Restaurant": "Yokoya Ramen Noodle",
+   "Cuisine": "Japanese",
+   "Revisit": "Yes"
  }
 ]

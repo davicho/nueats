@@ -2,36 +2,31 @@
  {
    "Date": "",
    "Restaurant": "Bar Pa Tea",
-   "Cuisine Type": "Taiwanese",
-   "Go Again?": "Yes",
-   "Sarah says": ""
+   "Cuisine": "Taiwanese",
+   "Revisit": "Yes"
  },
  {
    "Date": "",
    "Restaurant": "Boba Guys",
-   "Cuisine Type": "",
-   "Go Again?": "",
-   "Sarah says": ""
+   "Cuisine": "",
+   "Revisit": ""
  },
  {
    "Date": "",
    "Restaurant": "Vivi Bubble Tea",
-   "Cuisine Type": "",
-   "Go Again?": "",
-   "Sarah says": ""
+   "Cuisine": "",
+   "Revisit": ""
  },
  {
    "Date": "",
    "Restaurant": "Kung Fu Tea",
-   "Cuisine Type": "",
-   "Go Again?": "",
-   "Sarah says": ""
+   "Cuisine": "",
+   "Revisit": ""
  },
  {
    "Date": "",
    "Restaurant": "Yaya Tea Grand",
-   "Cuisine Type": "",
-   "Go Again?": "",
-   "Sarah says": ""
+   "Cuisine": "",
+   "Revisit": ""
  }
 ]

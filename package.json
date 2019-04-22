@@ -25,7 +25,7 @@
     "import-glob-loader": "^1.1.0",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.10",
     "postcss-csscomb": "^1.0.2",
     "postcss-csso": "^3.0.0",
     "postcss-loader": "^3.0.0",

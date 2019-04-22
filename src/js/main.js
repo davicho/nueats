@@ -2,7 +2,7 @@
  *  NuEats read from json and display in index.html
  */
 
-let jsonObj = require("./dataBubbleTea.json"),
+const jsonObj = require("./data.json"),
     data = jsonObj,
     results = document.getElementById("results");
 
@@ -19,7 +19,7 @@ class Establishment {
         ${data.map(place => 
           `<dl>
             <dt>Location: ${place.Restaurant}</dt>
-            <dd><b>Type: ${place['Cuisine Type']}</b></dd>
+            <dd><b>Type: ${place.Cuisine}</b></dd>
             <dd>${place.Date}</dd>
           </dl>`
         ).join('')}
